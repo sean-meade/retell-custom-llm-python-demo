@@ -13,7 +13,7 @@ from .custom_types import (
 from .llm_with_func_calling import LlmClient  # or use .llm_with_func_calling
 
 # Load environment variables from .env file (overrides existing env vars)
-load_dotenv(override=True)
+# load_dotenv(override=True)
 
 # Initialize FastAPI application instance
 app = FastAPI()
